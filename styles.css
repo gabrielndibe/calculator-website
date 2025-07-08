@@ -71,3 +71,79 @@ button:hover {
   border-radius: 5px;
   text-align: center;
 }
+ 
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; 
+        max-width: 90%; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .input-container {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    input {
+        font-size: 14px; 
+        padding: 8px; 
+    }
+
+    .button-container {
+        flex-wrap: wrap; 
+        gap: 8px; 
+    }
+
+    button {
+        padding: 8px 15px; 
+        font-size: 16px; 
+        min-width: 44px; 
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+    .error {
+        font-size: 14px; 
+        padding: 8px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .container {
+        padding: 10px; 
+        max-width: 95%; 
+    }
+
+    h1 {
+        font-size: 18px; 
+    }
+
+    input {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 14px;
+        min-width: 40px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+
+    .error {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+ 
+ 
